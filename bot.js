@@ -13,6 +13,7 @@ BOT_TOKENS.forEach(token => {
 });
 console.log('------------------------------------');
 
+//Go through each Bot Token in .env and login + add bot to array BOTS
 BOTS = []
 BOT_TOKENS.forEach(token => {
     BOTS.push( new Discord.Client( {intents: [Discord.Intents.FLAGS.GUILDS]} ).login(token) )
