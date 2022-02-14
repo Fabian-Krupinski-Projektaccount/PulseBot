@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 require('dotenv').config()
 
 
-BOT_TOKENS = process.env.BOT_TOKENS.split(' ')
+const BOT_TOKENS = process.env.BOT_TOKENS.split(' ')
 
 
 //Output Bot Tokens
