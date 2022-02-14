@@ -1,0 +1,23 @@
+{
+  "name": "pulsebot",
+  "version": "1.0.0",
+  "description": "Music Bot for Discord",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabian-Krupinski-Projektaccount/PulseBot.git"
+  },
+  "author": "Favo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fabian-Krupinski-Projektaccount/PulseBot/issues"
+  },
+  "homepage": "https://github.com/Fabian-Krupinski-Projektaccount/PulseBot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
